@@ -1,0 +1,28 @@
+:doctype: book
+
+:toc: left
+:toclevels: 3
+:pagenums:
+
+:encoding: utf-8
+:lang: hu
+
+:!chapter-signifier:
+:sectnums:
+:sectnumlevels: 6
+:idprefix:
+:idseparator: -
+
+:source-highlighter: highlightjs
+:icons: font
+
+:diagram-format: svg
+
+:xrefstyle: full
+
+
+:toc-title: Tartalom
+:figure-caption: Ábra
+:table-caption: Táblázat
+
+:experimental:

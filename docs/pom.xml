@@ -77,13 +77,8 @@
                                 <pdf-theme>thesis</pdf-theme>
                                 <pdf-themesdir>${project.basedir}/assets/themes</pdf-themesdir>
                                 <pdf-fontsdir>${project.basedir}/assets/fonts</pdf-fontsdir>
-                                <imagesdir>./src/images</imagesdir>
+                                <imagesdir>${project.basedir}/assets/images</imagesdir>
                                 <source-highlighter>highlightjs</source-highlighter>
-                                <icons>font</icons>
-                                <pagenums/>
-                                <toc/>
-                                <idprefix/>
-                                <idseparator>-</idseparator>
                             </attributes>
                         </configuration>
                     </execution>

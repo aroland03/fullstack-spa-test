@@ -1,0 +1,55 @@
+extends: default-with-fallback-font
+
+page:
+  size: A4
+  layout: portrait
+  margin: [2.5cm, 2.5cm, 2.5cm, 2.5cm]
+  numbering-start-at: toc
+
+toc:
+  page-numbering: none
+
+footer:
+  columns: =100%
+  recto:
+    center:
+      content: '{page-number}'
+  verso:
+    center:
+      content: '{page-number}'
+
+font:
+  catalog:
+    merge: true
+    OpenSans:
+      normal: OpenSans-Regular.ttf
+      bold: OpenSans-Bold.ttf
+      italic: OpenSans-Italic.ttf
+      bold-italic: OpenSans-BoldItalic.ttf
+      monospace: JetBrainsMono-Light.ttf
+
+
+heading:
+  font-family: OpenSans
+  font-weight: bold
+  page_break_before: auto
+
+base:
+  font-family: OpenSans
+  align: justify
+  line-height: 1.5
+  font-size: 12pt
+
+admonition:
+  font-size: 12pt
+
+caption:
+  align: center
+
+image:
+  align: center
+
+table:
+  caption:
+    side: bottom
+  font-size: 12pt
